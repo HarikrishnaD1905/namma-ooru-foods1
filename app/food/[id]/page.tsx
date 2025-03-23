@@ -107,19 +107,30 @@ export default function FoodItemPage() {
       <div className="grid md:grid-cols-2 gap-8">
         {/* Image */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="rounded-xl overflow-hidden shadow-lg"
-        >
-          <Image
-            src="/images/categories/dinner.jpg"
-            alt={item.name}
-            width={600}
-            height={400}
-            className="w-full h-auto object-cover"
-          />
-        </motion.div>
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5 }}
+  className="rounded-xl overflow-hidden shadow-lg"
+>
+  {item.image.startsWith("data:image") ? (
+    <img
+      src={getImagePath(item.image)}
+      alt={item.name}
+      width={600}
+      height={400}
+      className="w-full h-auto object-cover"
+    />
+  ) : (
+    <Image
+      src={getImagePath(item.image) || "/placeholder.svg"}
+      alt={item.name}
+      width={600}
+      height={400}
+      className="w-full h-auto object-cover"
+    />
+  )}
+</motion.div>
+
 
         {/* Details */}
         <motion.div
