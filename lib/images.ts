@@ -12,7 +12,7 @@ const imagePaths = {
   "/images/categories/dinner.jpg": PlaceholderImage({ text: "Dinner", width: 400, height: 300, bgColor: "#60391c" }),
   "/images/categories/snacks.jpg": PlaceholderImage({ text: "Snacks", width: 400, height: 300, bgColor: "#a47d13" }),
   "/images/categories/sweets.jpg": PlaceholderImage({ text: "Sweets", width: 400, height: 300, bgColor: "#cc9c18" }),
-  "/images/categories/beverages.jpg": PlaceholderImage({
+  "/public/images/categories/beverages.jpg": PlaceholderImage({
     text: "Beverages",
     width: 400,
     height: 300,
