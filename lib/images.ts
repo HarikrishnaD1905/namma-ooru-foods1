@@ -35,11 +35,11 @@ export function getImagePath(path: string): string {
 
 // Banner images
 export const bannerImages = [
-  "/images/banner/tncuisine.jpg": "/images/banner/tncuisine.jpg",
-  "/images/banner/traditionalfoods.jpg": "/images/banner/traditionalfoods.jpg",
-  "/images/banner/authflavours.jpg": "/images/banner/authflavours.jpg",
+  "/images/banner/tncuisine.jpg",
+  "/images/banner/traditionalfoods.jpg",
+  "/images/banner/authflavours.jpg",
 ]
 
 // Logo
-export const logoImage = "/images/banner/logo.jpg": "/images/banner/logo.jpg"
+export const logoImage = "/images/banner/logo.jpg"
 
