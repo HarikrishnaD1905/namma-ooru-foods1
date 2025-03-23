@@ -2,22 +2,12 @@ import PlaceholderImage from "@/components/placeholder-image"
 
 // Mock image paths
 const imagePaths = {
-  "/images/categories/breakfast.jpg": PlaceholderImage({
-    text: "Breakfast",
-    width: 400,
-    height: 300,
-    bgColor: "#955c28",
-  }),
+  "/images/categories/breakfast.jpg":  "/images/categories/breakfast.jpg",
   "/images/categories/lunch.jpg": "/images/categories/lunch.jpg",
-  "/images/categories/dinner.jpg": PlaceholderImage({ text: "Dinner", width: 400, height: 300, bgColor: "#60391c" }),
-  "/images/categories/snacks.jpg": PlaceholderImage({ text: "Snacks", width: 400, height: 300, bgColor: "#a47d13" }),
-  "/images/categories/sweets.jpg": PlaceholderImage({ text: "Sweets", width: 400, height: 300, bgColor: "#cc9c18" }),
-  "/images/categories/beverages.jpg": PlaceholderImage({
-    text: "Beverages",
-    width: 400,
-    height: 300,
-    bgColor: "#579557",
-  }),
+  "/images/categories/dinner.jpg": "/images/categories/dinner.jpg",
+  "/images/categories/snacks.jpg": "/images/categories/snacks.jpg",
+  "/images/categories/sweets.jpg": "/images/categories/sweets.jpg",
+  "/images/categories/beverages.jpg": "/images/categories/beverages.jpg",
 
   "/images/items/idli.jpg": PlaceholderImage({ text: "Idli", width: 400, height: 300, bgColor: "#e8d6c0" }),
   "/images/items/dosa.jpg": PlaceholderImage({ text: "Dosa", width: 400, height: 300, bgColor: "#d7b791" }),
