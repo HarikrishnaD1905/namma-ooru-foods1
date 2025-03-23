@@ -32,37 +32,37 @@ export const categories: Category[] = [
     id: "breakfast",
     name: "Breakfast",
     description: "Traditional Tamil Nadu breakfast specialties",
-    image: "https://www.pexels.com/photo/overhead-shot-of-indian-food-8312083/",
+    image: "/images/categories/breakfast.jpg",
   },
   {
     id: "lunch",
     name: "Lunch",
     description: "Authentic lunch meals ",
-    image: "https://www.pexels.com/photo/close-up-shot-of-a-delicious-cuisine-14132112/",
+    image: "/images/categories/lunch.jpg",
   },
   {
     id: "dinner",
     name: "Dinner",
     description: "Evening meals and specialties",
-    image: "https://www.pexels.com/photo/platter-of-foods-941869/",
+    image: "/images/categories/dinner.jpg",
   },
   {
     id: "snacks",
     name: "Snacks",
     description: "Traditional Tamil Nadu snacks and short eats",
-    image: "https://www.pexels.com/photo/close-up-of-baking-on-tray-12865863/",
+    image: "/images/categories/snacks.jpg",
   },
   {
     id: "sweets",
     name: "Sweets",
     description: "Traditional Tamil Nadu desserts and sweets",
-    image: "https://www.pexels.com/photo/woman-grabbing-a-bowl-with-food-8887249/",
+    image: "/images/categories/sweets.jpg",
   },
   {
     id: "beverages",
     name: "Beverages",
     description: "Traditional Tamil Nadu drinks and refreshments",
-    image: "https://www.pexels.com/photo/masala-tea-with-spices-on-table-5946612/",
+    image: "/images/categories/beverages.jpg",
   },
 ]
 

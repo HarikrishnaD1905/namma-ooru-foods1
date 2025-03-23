@@ -2,17 +2,17 @@ import PlaceholderImage from "@/components/placeholder-image"
 
 // Mock image paths
 const imagePaths = {
-  "https://www.pexels.com/photo/overhead-shot-of-indian-food-8312083/": PlaceholderImage({
+  "/images/categories/breakfast.jpg": PlaceholderImage({
     text: "Breakfast",
     width: 400,
     height: 300,
     bgColor: "#955c28",
   }),
-  "https://www.pexels.com/photo/close-up-shot-of-a-delicious-cuisine-14132112/": PlaceholderImage({ text: "Lunch", width: 400, height: 300, bgColor: "#7a4a22" }),
-  "https://www.pexels.com/photo/platter-of-foods-941869/": PlaceholderImage({ text: "Dinner", width: 400, height: 300, bgColor: "#60391c" }),
-  "https://www.pexels.com/photo/close-up-of-baking-on-tray-12865863/": PlaceholderImage({ text: "Snacks", width: 400, height: 300, bgColor: "#a47d13" }),
-  "https://www.pexels.com/photo/woman-grabbing-a-bowl-with-food-8887249/": PlaceholderImage({ text: "Sweets", width: 400, height: 300, bgColor: "#cc9c18" }),
-  "https://www.pexels.com/photo/masala-tea-with-spices-on-table-5946612/": PlaceholderImage({
+  "/images/categories/lunch.jpg": PlaceholderImage({ text: "Lunch", width: 400, height: 300, bgColor: "#7a4a22" }),
+  "/images/categories/dinner.jpg": PlaceholderImage({ text: "Dinner", width: 400, height: 300, bgColor: "#60391c" }),
+  "/images/categories/snacks.jpg": PlaceholderImage({ text: "Snacks", width: 400, height: 300, bgColor: "#a47d13" }),
+  "/images/categories/sweets.jpg": PlaceholderImage({ text: "Sweets", width: 400, height: 300, bgColor: "#cc9c18" }),
+  "/images/categories/beverages.jpg": PlaceholderImage({
     text: "Beverages",
     width: 400,
     height: 300,
