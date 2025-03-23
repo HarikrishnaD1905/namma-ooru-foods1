@@ -116,8 +116,8 @@ export default function FoodItemPage() {
     <img
       src={getImagePath(item.image)}
       alt={item.name}
-      width={600}
-      height={400}
+      width={400}
+      height={300}
       className="w-full h-auto object-cover"
     />
   ) : (
