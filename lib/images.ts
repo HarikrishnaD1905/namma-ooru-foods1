@@ -8,7 +8,7 @@ const imagePaths = {
     height: 300,
     bgColor: "#955c28",
   }),
-  "/images/categories/lunch.jpg": PlaceholderImage({ text: "Lunch", width: 400, height: 300, bgColor: "#7a4a22" }),
+  "/images/categories/lunch.jpg": "/images/categories/lunch.jpg",
   "/images/categories/dinner.jpg": PlaceholderImage({ text: "Dinner", width: 400, height: 300, bgColor: "#60391c" }),
   "/images/categories/snacks.jpg": PlaceholderImage({ text: "Snacks", width: 400, height: 300, bgColor: "#a47d13" }),
   "/images/categories/sweets.jpg": PlaceholderImage({ text: "Sweets", width: 400, height: 300, bgColor: "#cc9c18" }),

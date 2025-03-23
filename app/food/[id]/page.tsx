@@ -122,7 +122,7 @@ export default function FoodItemPage() {
     />
   ) : (
     <Image
-      src={getImagePath(item.image) || "/placeholder.svg"}
+      src={getImagePath(item.image) }
       alt={item.name}
       width={600}
       height={400}
