@@ -113,7 +113,7 @@ export default function FoodItemPage() {
           className="rounded-xl overflow-hidden shadow-lg"
         >
           <Image
-            src={getImagePath(item.image) || "/placeholder.svg"}
+            src="/images/categories/dinner.jpg"
             alt={item.name}
             width={600}
             height={400}
