@@ -64,11 +64,11 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-spice-300">Contact Us</h3>
             <address className="not-italic">
-              <p className="text-sm mb-2">The Owner : Jayashree R (Dosa) </p>
-              <p className="text-sm mb-2">12 Udayampalayam, Coimbatore</p>
+              <p className="text-sm mb-2">The Owner : Harikrishna D </p>
+              <p className="text-sm mb-2">Coimbatore</p>
               <p className="text-sm mb-2">Tamil Nadu, India</p>
-              <p className="text-sm mb-2">Phone: +91 63826 99058</p>
-              <p className="text-sm">Email: info@nammaoorufoods.com</p>
+              <p className="text-sm mb-2">Phone: +91 86675 14586</p>
+              <p className="text-sm">Email: harikrishnad2006@gmail.com</p>
             </address>
           </div>
         </div>
